@@ -7,4 +7,5 @@
 2. 确保xlsx里面只有一个sheet
 3. xlsx文件放到D:\\excel2csv\xls_tmp\
 4. 新建D:\\excel2csv\csv目录（csv生成地址）
-5. 运行
+5. 运行，生成csv
+6. 如果把 “D://..” 改成 “./” ，绝对路径变为相对exe的路径
