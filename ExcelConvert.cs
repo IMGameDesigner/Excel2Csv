@@ -68,8 +68,9 @@ class ExcelConvert
                     ConverToCSV(reader, culture, name, outputPath);
                 } while (reader.NextResult());
             }
-            catch
+            catch(Exception ex)
             {
+                Console.WriteLine(ex);
             }
         }
     }
