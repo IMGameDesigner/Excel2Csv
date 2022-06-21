@@ -7,8 +7,8 @@ namespace Excel2Csv
 {
     class Program
     {
-		static string xlsPath = @"D:\\excel2csv\xls_tmp\";
-        static string csvPath = @"D:\\excel2csv\csv";
+		static string xlsPath = "";
+        static string csvPath = "";
 
         static void Main(string[] args)
         {
