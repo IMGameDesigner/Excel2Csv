@@ -12,6 +12,8 @@ namespace Excel2Csv
 
         static void Main(string[] args)
         {
+            xlsPath = @ReadConfig.GetExcelPath();
+            csvPath = @ReadConfig.GetCsvPath();
             //重要
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);//注册Nuget包System.Text.Encoding.CodePages中的编码到.NET Core
 
